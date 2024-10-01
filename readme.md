@@ -21,7 +21,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-noldr = "client = { git = "https://github.com/Teach2Breach/noldr.git", branch = "main" }"
+noldr = { git = "https://github.com/Teach2Breach/noldr.git", branch = "main" }
 ```
 
 There is an example of how to use the library in the `src/main.rs` file. 
