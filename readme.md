@@ -27,5 +27,9 @@ noldr = { git = "https://github.com/Teach2Breach/noldr.git", branch = "main" }
 There is an example of how to use the library in the `src/main.rs` file.<BR>
 **note** - You only need to load dlls that are not already loaded.
 
+## Example Image
+
+![Example Image](2024-10-03_20-49.png)
+
 Please note that litcrypt is used to encrypt specific strings, so you will need to add that to your project as well and set a `LITCRYPT_ENCRYPT_KEY` environment variable. The value is arbitrary, but it must be set. If you encrypt the API names which you want to call, in the same way as shown in main.rs, then those strings will not be visible in the compiled program. It is highly recommended to use litcrypt.
 
